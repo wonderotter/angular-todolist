@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { Todo } from 'src/app/models/Todo';
 import { TodoService } from 'src/app/services/todo.service';
 
@@ -10,6 +10,7 @@ import { TodoService } from 'src/app/services/todo.service';
 
 export class TodoItemComponent implements OnInit {
   @Input() hippo: Todo;
+  @Output() deleteTodo: EventEmitter<Todo> = new EventEmitter();
 
   constructor(private todoService:TodoService) { }
 
@@ -35,8 +36,8 @@ export class TodoItemComponent implements OnInit {
     });
   }
 
-  onDelete(todo) {
-    console.log('delete');
-    console.log(todo.title);
+  onDelete(todo) { //event가 발생하면 해당 내용을 emit upwards 해준다
+    //this.deleteTodo는 paraent component에 있다
+    this.deleteTodo.emit(todo);
   }
 }
