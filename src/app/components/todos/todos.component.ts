@@ -26,4 +26,11 @@ export class TodosComponent implements OnInit {
       console.log(todo.id+'번 todo 삭제됨');
     });
   }
+
+  addTodo(todo:Todo){
+    this.todoService.addTodo(todo).subscribe(res => {
+      console.log(res.id+'번 추가');
+      this.todos.push(res);
+    })
+  }
 }
