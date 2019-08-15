@@ -1,27 +1,12 @@
 # AngularCrashTodolist
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+Build a small app With Angular 7
 
-## Development server
+Angular Crash Course - 2019 강의를 듣고 만든 todolist Web App 입니다.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+링크: https://youtu.be/Fdf5aTYRW0E
 
-## Code scaffolding
+## Screenshot
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![todolist](https://user-images.githubusercontent.com/45552388/63097866-6fa6e700-bfac-11e9-9687-be8d88bce030.png)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
