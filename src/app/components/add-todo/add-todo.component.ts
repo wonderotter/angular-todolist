@@ -19,7 +19,7 @@ export class AddTodoComponent implements OnInit {
   onSubmit() {
     const todo = {
       title: this.title,
-      complete: false
+      completed: false
     }
 
     this.addTodo.emit(todo);

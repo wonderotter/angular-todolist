@@ -36,7 +36,7 @@ export class TodoService {
   }
 
   //add Todo
-  addTodo(todo:Todo):Observable<Todo>{
+  addTodo(todo:any):Observable<Todo>{
     return this.http.post<Todo>(this.todosUrl, todo, httpOptions);
   }
 }
