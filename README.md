@@ -8,6 +8,6 @@ Angular Crash Course - 2019 강의를 듣고 만든 todolist Web App 입니다.
 
 ## Screenshot
 
-![todolist](https://user-images.githubusercontent.com/45552388/63098398-d4af0c80-bfad-11e9-859f-029c0bd8732e.png)
+![todolist](https://user-images.githubusercontent.com/45552388/63098566-2192e300-bfae-11e9-959e-5874d6a058e9.png)
 
 
